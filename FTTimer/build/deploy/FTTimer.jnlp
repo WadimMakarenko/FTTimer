@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FTTimer.jnlp">
+  <information>
+    <title>FTTimer</title>
+    <vendor>cbot.accept</vendor>
+    <description>FTTimer</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FTTimer.jar" size="65601" download="eager" />
+    <jar href="libs\httpcore-4.2.3.jar" size="227207" download="eager" />
+    <jar href="libs\jcifs-1.3.18.jar" size="396318" download="eager" />
+    <jar href="libs\json-simple-1.1.jar" size="16046" download="eager" />
+    <jar href="libs\org.apache.httpcomponents.httpclient_4.5.3.jar" size="1274582" download="eager" />
+    <jar href="libs\super-csv-2.4.0.jar" size="98092" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="cbot.accept.fttimer.MainApp"  name="FTTimer" />
+  <update check="background"/>
+</jnlp>
